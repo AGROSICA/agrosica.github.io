@@ -1,0 +1,17 @@
+div.votebox {
+	border: 1px solid black;
+}
+
+div.votebox form div.upvote,
+div.votebox form div.downvote {
+	cursor: pointer;
+	min-height: 10px;
+}
+
+div.votebox form div.upvote:before {
+	content: "Up-vote!";
+}
+
+div.votebox form div.downvote:before {
+	content: "Down-vote!";
+}
